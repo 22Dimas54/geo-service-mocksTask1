@@ -40,6 +40,7 @@ public class GeoServiceImplTests {
     @ParameterizedTest
     @MethodSource("source")
     public void testByIp(String ip) {
+        //Спасибо за указанный недочет!
         //arrange
         Location expected = new Location("Moscow", Country.RUSSIA, "Lenina", 15);
         //act
