@@ -1,3 +1,5 @@
+package ru.netology.i18n;
+
 import org.junit.jupiter.api.*;
 import ru.netology.entity.Country;
 import ru.netology.i18n.LocalizationServiceImpl;
